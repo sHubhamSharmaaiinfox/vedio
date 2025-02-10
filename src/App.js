@@ -97,7 +97,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomePageOne />} />
      
-        <Route exact path="/media" element={<Editor />} />
+        {/* <Route exact path="/media" element={<Editor />} /> */}
       </Routes>
     </BrowserRouter>
   );
